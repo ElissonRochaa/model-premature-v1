@@ -1,7 +1,6 @@
-from xgboost import XGBClassifier  # ou XGBRegressor, dependendo do seu modelo
+from custom_model import CustomModel
 from datetime import datetime
 import pickle
-from api.models.custom_model import CustomModel
 
 def predict_test(X_test, custom_model):
 

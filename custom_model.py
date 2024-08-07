@@ -1,4 +1,5 @@
 from datetime import datetime
+import pandas
 
 class CustomModel:
     def __init__(self, model, dataset, numeric_attributes):

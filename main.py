@@ -1,5 +1,5 @@
 from api import app
-from api.models.custom_model import CustomModel
+from custom_model import CustomModel
 # from py_eureka_client import eureka_client
 
 # # Parametros para o eureka
